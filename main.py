@@ -48,7 +48,7 @@ if (option == "reverse"):
 else:
   encrypt = shuffleMsg
 
-print encrypt(message)
+print(encrypt(message))
 
 answer = input("Guess the message: ")
 if (answer == message):
