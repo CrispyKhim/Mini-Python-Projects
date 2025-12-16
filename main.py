@@ -47,15 +47,15 @@ def encrypt(message):
   
   return result
 
-print "Welcome to your very own Morse Coder."
-print "\n***\n"
+print("Welcome to your very own Morse Coder.")
+print("\n***\n")
 
 while True:
-  print "Mesage to be sent: " + encrypt(input("Enter your message here: "))
-  print ""
+  print("Mesage to be sent: " + encrypt(input("Enter your message here: ")))
+  print("")
   
   if input("Do you want stop? (y/n)") == "y":
-    print "\n***\n"
-    print "Goodbye!"
+    print("\n***\n")
+    print("Goodbye!")
     break
-  print ""
+  print("")
